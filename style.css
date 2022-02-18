@@ -1,0 +1,68 @@
+body
+{
+	background-color: lightgrey;
+
+   background: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+    
+	background-repeat: no-repeat;
+	background-size: cover !important;
+	margin:0;
+} 
+   #border {
+	   border-top: 15px solid lightblue;
+	   border-bottom:5px dashed lightgreen;
+	   border-color:blue;
+	   border-left:5px solid orange;
+	   border-right: 5px solid lightgreen;
+	   
+	   /*border: 5px dashed white; */
+	   color:darkblue;
+   }
+   .named-color{
+	   color: orange !important; 
+	  /* color:green; */
+	  /* color: #F90000; */
+	  background-color:red;
+	  
+	  padding:20px;
+	/*  margin:40px; //this will apply to all 4 sides */
+	
+/*	margin-left:40px;
+	margin-top:40px;
+	margin-right:100px;
+	margin-bottom:20px; */
+	
+	/* margin: 40px 100px;  //top-bottom, left-right */
+  /* margin:40px 30px 20px 10px;  //top, right, bottom, left */
+  
+ 
+     /*padding*/
+	/* padding:40px;  // This will apply to all 4 sides */
+/*	padding-left:40px;
+	padding-top:40px;
+	padding-right:100px;
+	padding-bottom:20px;
+	*/
+	
+/*	padding: 40px 100px; //top-bottom , left-right */
+
+/*  padding: 40px 30px 20px 10px;  //top , right, bottom, left */
+  outline:4px dashed black;
+  
+	
+ 
+   }
+   .hex-color{
+	   color:#FF00FF;
+   }
+   .rgb-color{
+	   
+	   color:rgba(255,155,0, 0.5)
+   }
+   input{
+	   padding:10px;
+	   margin:30px;
+	   border:1px solid blue;
+	   outline:none;
+   }
+   
